@@ -153,7 +153,9 @@ body{
     margin-top: 20px;
 }
 .icon{
-    width: 40px;
+    flex: 1;
+    max-width: 40px;
+    height: 40px;
     border-radius: 50%;
     padding: 5px;
     flex-shrink: 0;
@@ -162,6 +164,7 @@ body{
     display: flex;
     flex-flow: column;
     padding: 5px;
+    flex: 1;
 }
 .username{
     font-weight: 700;
@@ -195,7 +198,6 @@ body{
 .s-1{
     flex:1;
     margin: 20px;
-    border: 1px solid black;
 }
 .email{
     width: 100%;
@@ -207,7 +209,6 @@ body{
     display: flex;
     flex-flow: column;
     padding: 10px;
-    border: 1px solid black;
 }
 body{
     font-family: sans-serif;
